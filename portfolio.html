@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio - Nitesh Lad</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-br from-sky-100 via-white to-purple-100 font-sans">
+
+<!-- Navbar -->
+<header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-md">
+  <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
+    <h1 class="text-2xl font-bold text-purple-600">Nitesh Lad</h1>
+    <nav class="space-x-6 hidden md:flex font-medium">
+      <a href="index.html" class="nav-link">Home</a>
+      <a href="about.html" class="nav-link">About</a>
+      <a href="services.html" class="nav-link">Services</a>
+      <a href="pricing.html" class="nav-link">Pricing</a>
+      <a href="portfolio.html" class="nav-link">Portfolio</a>
+      <a href="contact.html" class="nav-link">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<!-- Portfolio Section -->
+<section class="pt-28 pb-20 max-w-7xl mx-auto px-6">
+  <h2 class="text-4xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">My Portfolio</h2>
+
+  <!-- Filter Buttons -->
+  <div class="flex flex-wrap justify-center gap-4 mb-10" data-aos="fade-up">
+    <button class="filter-btn bg-purple-500 text-white px-5 py-2 rounded-full shadow hover:bg-purple-600 transition" data-filter="all">All</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="logo">Logos</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="website">Websites</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="post">Social Media Posts</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="banner">Banners</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="uiux">Ads</button>
+    <button class="filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition" data-filter="github">Brochure</button>
+  </div>
+
+  <!-- Portfolio Grid -->
+  <div id="portfolio-grid" class="grid sm:grid-cols-2 md:grid-cols-3 gap-8">
+
+    <!-- Logos -->
+    <div class="portfolio-item logo bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/logo1.png" data-lightbox="logo" data-title="Logo 1">
+        <img src="assets/img/logo1.png" alt="Logo 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item logo bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/printbazzar.png" data-lightbox="logo" data-title="Logo 2">
+        <img src="assets/img/printbazzar.png" alt="Logo 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item logo bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="200">
+      <a href="assets/img/sandhi.png" data-lightbox="logo" data-title="Logo 3">
+        <img src="assets/img/sandhi.png" alt="Logo 3" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+
+    <!-- Websites -->
+    <div class="portfolio-item website bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="https://niteshlad27.github.io/SandhyaMultistate.github.io/" data-lightbox="website" data-title="Website 1">
+        <img src="assets/img/sandhyaweb.png" alt="Website 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+  
+    <!-- Social Media Posts -->
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/Laxmi Pujan.png" data-lightbox="post" data-title="Post 1">
+        <img src="assets/img/Laxmi Pujan.png" alt="Post 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/BHaubej.png" data-lightbox="post" data-title="Post 2">
+        <img src="assets/img/BHaubej.png" alt="Post 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/eid.png" data-lightbox="post" data-title="Post 3">
+        <img src="assets/img/eid.png" alt="Post 3" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/Kojagiri.png" data-lightbox="post" data-title="Post 2">
+        <img src="assets/img/Kojagiri.png" alt="Post 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/3.png" data-lightbox="post" data-title="Post 2">
+        <img src="assets/img/3.png" alt="Post 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/Dusshera.jpg" data-lightbox="post" data-title="Post 2">
+        <img src="assets/img/Dusshera.jpg" alt="Post 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item post bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in" data-aos-delay="100">
+      <a href="assets/img/Gandhi Jayanti.jpg" data-lightbox="post" data-title="Post 2">
+        <img src="assets/img/Gandhi Jayanti.jpg" alt="Post 2" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+
+    <!-- Banners -->
+    <div class="portfolio-item banner bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/Offer Banner.png" data-lightbox="banner" data-title="Banner 1">
+        <img src="assets/img/Offer Banner.png" alt="Banner 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item banner bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/1.png" data-lightbox="banner" data-title="Banner 1">
+        <img src="assets/img/1.png" alt="Banner 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item banner bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/Diwali Offer01.png" data-lightbox="banner" data-title="Banner 1">
+        <img src="assets/img/Diwali Offer01.png" alt="Banner 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+
+    <!-- Ads -->
+    <div class="portfolio-item uiux bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/BASIC 2.png" data-lightbox="uiux" data-title="UI/UX 1">
+        <img src="assets/img/BASIC 2.png" alt="UI/UX 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item uiux bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/DO_Clerk_Andheri.png" data-lightbox="uiux" data-title="UI/UX 1">
+        <img src="assets/img/DO_Clerk_Andheri.png" alt="UI/UX 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+    <div class="portfolio-item uiux bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/img/webdesign.png" data-lightbox="uiux" data-title="UI/UX 1">
+        <img src="assets/img/webdesign.png" alt="UI/UX 1" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+
+    <!-- Brochure -->
+    <div class="portfolio-item github bg-white rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition" data-aos="zoom-in">
+      <a href="assets/pdf/Copass _Brochure_Final.pdf" target="_blank">
+        <img src="assets/img/brochure.png" alt="GitHub Projects" class="w-full h-48 object-contain bg-gray-50 p-2">
+      </a>
+    </div>
+
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-gradient-to-r from-sky-200 to-purple-200 py-6 text-center text-gray-600 mt-10">
+  <p>© 2025 Nitesh Lad | All Rights Reserved</p>
+</footer>
+
+<!-- Scripts -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+<script>
+  AOS.init({ duration: 1200 });
+
+  const buttons = document.querySelectorAll(".filter-btn");
+  const items = document.querySelectorAll(".portfolio-item");
+
+  buttons.forEach(btn => {
+    btn.addEventListener("click", () => {
+      const filter = btn.getAttribute("data-filter");
+
+      // Active button styles
+      buttons.forEach(b => b.classList.remove("bg-purple-500", "text-white"));
+      buttons.forEach(b => b.classList.add("bg-gray-200", "text-gray-700"));
+      btn.classList.add("bg-purple-500", "text-white");
+      btn.classList.remove("bg-gray-200", "text-gray-700");
+
+      // Filter items
+      items.forEach(item => {
+        if(filter === 'all' || item.classList.contains(filter)){
+          item.classList.remove("hidden");
+        } else {
+          item.classList.add("hidden");
+        }
+      });
+    });
+  });
+</script>
+</body>
+</html>
