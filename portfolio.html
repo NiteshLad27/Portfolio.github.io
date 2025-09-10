@@ -14,32 +14,93 @@
 <header class="fixed w-full top-0 z-50 bg-white/80 backdrop-blur-md shadow-md">
   <div class="max-w-7xl mx-auto flex justify-between items-center p-4">
     <h1 class="text-2xl font-bold text-purple-600">Nitesh Lad</h1>
-    <nav class="space-x-6 hidden md:flex font-medium">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="about.html" class="nav-link">About</a>
-      <a href="services.html" class="nav-link">Services</a>
-      <a href="pricing.html" class="nav-link">Pricing</a>
-      <a href="portfolio.html" class="nav-link">Portfolio</a>
-      <a href="contact.html" class="nav-link">Contact</a>
+    <nav class="space-x-4 md:space-x-6 hidden md:flex font-medium">
+      <a href="index.html" class="nav-link hover:text-purple-600 transition">Home</a>
+      <a href="about.html" class="nav-link hover:text-purple-600 transition">About</a>
+      <a href="services.html" class="nav-link hover:text-purple-600 transition">Services</a>
+      <a href="pricing.html" class="nav-link hover:text-purple-600 transition">Pricing</a>
+      <a href="portfolio.html" class="nav-link hover:text-purple-600 transition">Portfolio</a>
+      <a href="contact.html" class="nav-link hover:text-purple-600 transition">Contact</a>
     </nav>
+    <!-- Mobile Menu Button -->
+    <button id="menu-btn" class="md:hidden text-purple-600 focus:outline-none">☰</button>
+  </div>
+
+  <!-- Mobile Menu -->
+  <div id="mobile-menu" class="hidden flex-col space-y-4 p-4 bg-white/90 backdrop-blur-md md:hidden">
+    <a href="index.html" class="hover:text-purple-600 transition">Home</a>
+    <a href="about.html" class="hover:text-purple-600 transition">About</a>
+    <a href="services.html" class="hover:text-purple-600 transition">Services</a>
+    <a href="pricing.html" class="hover:text-purple-600 transition">Pricing</a>
+    <a href="portfolio.html" class="hover:text-purple-600 transition">Portfolio</a>
+    <a href="contact.html" class="hover:text-purple-600 transition">Contact</a>
   </div>
 </header>
 
 <!-- Portfolio Section -->
-<section class="pt-28 pb-20 max-w-7xl mx-auto px-6">
-  <h2 class="text-4xl font-bold text-center mb-12 text-gray-800" data-aos="fade-up">My Portfolio</h2>
+<section class="pt-28 pb-20 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+  <h2 class="text-3xl sm:text-4xl font-bold text-center mb-10 text-gray-800" data-aos="fade-up">My Portfolio</h2>
 
   <!-- Filter Buttons (Dynamic) -->
-  <div class="flex flex-wrap justify-center gap-4 mb-10" data-aos="fade-up"></div>
+  <div class="flex flex-wrap justify-center gap-3 mb-10" data-aos="fade-up"></div>
 
   <!-- Portfolio Grid -->
-  <div id="portfolio-grid" class="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8"></div>
+  <div id="portfolio-grid" class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6"></div>
 </section>
 
 <!-- Footer -->
-<footer class="bg-gradient-to-r from-sky-200 to-purple-200 py-6 text-center text-gray-600 mt-10">
-  <p>© 2025 Nitesh Lad | All Rights Reserved</p>
+<footer class="bg-gradient-to-r from-sky-200 to-purple-200 py-12 mt-10">
+  <div class="max-w-7xl mx-auto px-6 sm:px-8 grid grid-cols-1 md:grid-cols-3 gap-10">
+
+    <!-- Quick Links -->
+    <div>
+      <h3 class="text-xl font-bold text-purple-600 mb-4">Quick Links</h3>
+      <ul class="space-y-2 text-gray-700">
+        <li><a href="index.html" class="hover:text-purple-600 transition">Home</a></li>
+        <li><a href="about.html" class="hover:text-purple-600 transition">About</a></li>
+        <li><a href="services.html" class="hover:text-purple-600 transition">Services</a></li>
+        <li><a href="pricing.html" class="hover:text-purple-600 transition">Pricing</a></li>
+        <li><a href="portfolio.html" class="hover:text-purple-600 transition">Portfolio</a></li>
+        <li><a href="contact.html" class="hover:text-purple-600 transition">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- Address -->
+    <div>
+      <h3 class="text-xl font-bold text-purple-600 mb-4">Address</h3>
+      <p class="text-gray-700 text-sm leading-relaxed">
+        📍 C 1602 Laxminarayan SRA CHS,<br>
+        Kokan Nagar, Near Hanuman Mandir,<br>
+        Bhandup West 400 078, Mumbai
+      </p>
+    </div>
+
+    <!-- Contact -->
+    <div>
+      <h3 class="text-xl font-bold text-purple-600 mb-4">Contact</h3>
+      <p class="text-gray-700 mb-2">
+        📞 <a href="tel:+918097867534" class="hover:text-purple-600 transition">+91 8097867534</a>
+      </p>
+      <p class="text-gray-700 mb-4">
+        ✉ <a href="mailto:nitesh.lad@gmail.com" class="hover:text-purple-600 transition">nitesh.lad@gmail.com</a>
+      </p>
+      <!-- WhatsApp Icon -->
+      <a href="https://wa.me/918097867534?text=Hello%20Nitesh,%20I%20want%20to%20discuss%20a%20project" target="_blank" 
+         class="inline-flex items-center bg-green-500 hover:bg-green-600 text-white px-4 py-2 rounded-lg shadow transition">
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-2" fill="currentColor" viewBox="0 0 24 24">
+          <path d="M20.52 3.48C18.69 1.64 15.81 1 12.92 1 6.79 1 2 5.79 2 11.92c0 2.09.54 4.15 1.57 5.97L2 23l5.33-1.55c1.77 1.03 3.8 1.57 5.88 1.57 6.13 0 10.92-4.79 10.92-10.92 0-2.89-.64-5.77-2.61-7.62zm-7.6 17.02c-1.73 0-3.41-.47-4.88-1.36l-.35-.21-3.16.92.85-3.07-.22-.36c-.86-1.43-1.32-3.09-1.32-4.78 0-5.19 4.23-9.42 9.42-9.42 2.51 0 4.87.98 6.63 2.76 1.76 1.76 2.74 4.12 2.74 6.64 0 5.19-4.23 9.42-9.42 9.42z"/>
+          <path d="M17.4 14.3l-2.06-.94c-.28-.12-.6-.06-.82.13l-.88.77c-1.54-.82-2.79-2.08-3.61-3.63l.75-.89c.18-.22.24-.54.13-.82l-.95-2.05c-.12-.27-.38-.45-.67-.45H6.07c-.34 0-.63.22-.7.55C5.42 8.23 5 9.54 5 11.08c0 5.23 4.24 9.47 9.47 9.47 1.55 0 2.85-.42 3.53-.93.34-.18.56-.51.56-.88v-1.62c0-.28-.16-.53-.42-.66z"/>
+        </svg>
+        WhatsApp
+      </a>
+    </div>
+  </div>
+
+  <div class="mt-8 text-center text-gray-600 text-sm">
+    © 2025 Nitesh Lad | All Rights Reserved
+  </div>
 </footer>
+
 
 <!-- Scripts -->
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -47,16 +108,25 @@
 <script>
 AOS.init({ duration: 1200 });
 
+// Mobile Menu Toggle
+const menuBtn = document.getElementById('menu-btn');
+const mobileMenu = document.getElementById('mobile-menu');
+if(menuBtn){
+  menuBtn.addEventListener('click', () => {
+    mobileMenu.classList.toggle('hidden');
+  });
+}
+
 // Load JSON & build portfolio
 fetch("assets/portfolio.json")
   .then(res => res.json())
   .then(data => {
     const grid = document.getElementById("portfolio-grid");
-    const filterContainer = document.querySelector(".flex.flex-wrap.justify-center.gap-4");
+    const filterContainer = document.querySelector(".flex.flex-wrap.justify-center.gap-3");
 
     // Create "All" button
     const allBtn = document.createElement("button");
-    allBtn.className = "filter-btn bg-purple-500 text-white px-5 py-2 rounded-full shadow hover:bg-purple-600 transition";
+    allBtn.className = "filter-btn bg-purple-500 text-white px-4 py-2 rounded-full shadow hover:bg-purple-600 transition";
     allBtn.setAttribute("data-filter", "all");
     allBtn.textContent = "All";
     filterContainer.appendChild(allBtn);
@@ -65,15 +135,14 @@ fetch("assets/portfolio.json")
     data.categories.forEach(cat => {
       // Filter button
       const btn = document.createElement("button");
-      btn.className = "filter-btn bg-gray-200 text-gray-700 px-5 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition";
+      btn.className = "filter-btn bg-gray-200 text-gray-700 px-4 py-2 rounded-full shadow hover:bg-purple-600 hover:text-white transition";
       btn.setAttribute("data-filter", cat.class);
       btn.textContent = cat.name;
       filterContainer.appendChild(btn);
 
       // Portfolio items
       cat.images.forEach(img => {
-        if (!img.file) return; // skip invalid
-
+        if (!img.file) return;
         const filePath = cat.path + img.file.trim();
         const ext = img.file.split(".").pop().toLowerCase();
 
@@ -85,19 +154,18 @@ fetch("assets/portfolio.json")
         if (["png","jpg","jpeg","webp","gif","svg"].includes(ext)) {
           div.innerHTML = `
             <a href="${filePath}" data-lightbox="${cat.class}" data-title="${img.title}">
-              <img src="${filePath}" alt="${img.title}" class="w-full h-48 object-contain bg-gray-50 p-2">
+              <img src="${filePath}" alt="${img.title}" class="w-full h-48 sm:h-52 md:h-56 lg:h-60 object-cover">
             </a>`;
         }
         // PDFs
         else if (ext === "pdf") {
           div.innerHTML = `
             <a href="${filePath}" target="_blank" data-title="${img.title}">
-              <div class="flex flex-col items-center justify-center w-full h-48 border-2 border-red-500 bg-red-50 text-red-600 p-4 hover:bg-red-100 transition">
+              <div class="flex flex-col items-center justify-center w-full h-48 sm:h-52 md:h-56 lg:h-60 border-2 border-red-500 bg-red-50 text-red-600 p-4 hover:bg-red-100 transition">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-12 w-12 mb-2" viewBox="0 0 24 24" fill="currentColor">
                   <path d="M6 2a2 2 0 00-2 2v16c0 1.1.9 2 2 2h12a2 2 0 002-2V8l-6-6H6zm7 7V3.5L18.5 9H13z"/>
-                  <text x="6" y="20" font-size="8" font-weight="bold" fill="red">PDF</text>
                 </svg>
-                <span class="text-sm font-semibold text-red-700">${img.title}</span>
+                <span class="text-sm font-semibold text-red-700 text-center">${img.title}</span>
               </div>
             </a>`;
         }
