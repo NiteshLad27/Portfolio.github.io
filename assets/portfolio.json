@@ -6,11 +6,11 @@
       "path": "assets/img/Branding/",
       "images": [
         { "file": "reuse.png", "title": "Reuse" },
-        { "file": "Jaivik_Industries_Logo.png", "title": "Jaivik Industries Logo" },
+        { "file": "jaivik.png", "title": "Jaivik Industries Logo" },
         { "file": "printbazzar.png", "title": "Printbazzar" },
         { "file": "blissLogo.png", "title": "Bliss Logo" },
-        { "file": "SamriuddhiLogo.png", "title": "Samruddhi Logo" },
-        { "file": "Sandhi-Founation-Logo.png", "title": "Sandhi Foundation Logo" }
+        { "file": "samriuddhiLogo.png", "title": "Samruddhi Logo" },
+        { "file": "sandhifounationlogo.png", "title": "Sandhi Foundation Logo" }
       ]
     },
     {
@@ -18,11 +18,11 @@
       "class": "print_media",
       "path": "assets/img/PrintMedia/",
       "images": [
-        { "file": "Copass _Brochure_Final.pdf", "title": "Copass Brochure" },
-        { "file": "Invitation Card_Final11.pdf", "title": "Invitation Card" },
-        { "file": "QR Stand.pdf", "title": "QR Stand" },
-        { "file": "Sakhi Cover Page.pdf", "title": "Sakhi Cover Page" },
-        { "file": "Sakhi Scheme Brochure _Final.pdf", "title": "Sakhi Scheme Brochure" }
+        { "file": "CopassBrochureFinal.pdf", "title": "Copass Brochure" },
+        { "file": "InvitationCardFinal11.pdf", "title": "Invitation Card" },
+        { "file": "QRStand.pdf", "title": "QR Stand" },
+        { "file": "SakhiCoverPage.pdf", "title": "Sakhi Cover Page" },
+        { "file": "SakhiSchemeBrochureFinal.pdf", "title": "Sakhi Scheme Brochure" }
       ]
     },
     {
@@ -30,7 +30,7 @@
       "class": "packaging_design",
       "path": "assets/img/PackagingDesign/",
       "images": [
-        { "file": "Sticker 6X10_123.pdf", "title": "Sticker 6X10" }
+        { "file": "Box.pdf", "title": "Box" }
       ]
     },
     {
@@ -38,32 +38,32 @@
       "class": "digital_social_media",
       "path": "assets/img/DigitalSocialMedia/",
       "images": [
-        { "file": "BASIC 2.png", "title": "BASIC 2" },
-        { "file": "1 May 4.png", "title": "1 May" },
+        { "file": "BASIC2.png", "title": "BASIC 2" },
+        { "file": "1May4.png", "title": "1 May" },
         { "file": "Mahashivratri.png", "title": "Mahashivratri" },
-        { "file": "Cream beige Feminine Beauty Treatment Voucher Instagram Post.png", "title": "Beauty Treatment Voucher" },
-        { "file": "Diwali Padwa.png", "title": "Diwali Padwa" },
+        { "file": "Fusion.png", "title": "Beauty Treatment Voucher" },
+        { "file": "DiwaliPadwa.png", "title": "Diwali Padwa" },
         { "file": "Dusshera.png", "title": "Dusshera" },
         { "file": "eid.png", "title": "Eid" },
-        { "file": "Gandhi Jayanti.png", "title": "Gandhi Jayanti" },
-        { "file": "Get the Special Treatment You Deserve.png", "title": "Special Treatment" },
-        { "file": "Gold and Red Vibrant Traditional Navratri Festive Sale Instagram Post.png", "title": "Navratri Festive Sale" },
+        { "file": "GandhiJayanti.png", "title": "Gandhi Jayanti" },
+        { "file": "SpecialTreatment.png", "title": "Special Treatment" },
+        { "file": "NavratriFestive.png", "title": "Navratri Festive Sale" },
         { "file": "graphic.png", "title": "Graphic" },
         { "file": "Kojagiri.png", "title": "Kojagiri" },
-        { "file": "Laxmi Pujan.png", "title": "Laxmi Pujan" },
-        { "file": "Maharashtra Din.png", "title": "Maharashtra Din" },
-        { "file": "Print Bazzar Post.png", "title": "Print Bazzar Post" },
-        { "file": "Product Catlouge-20.png", "title": "Product Catalogue 20" },
-        { "file": "Product Catlouge-22.png", "title": "Product Catalogue 22" },
-        { "file": "Product Catlouge-24.png", "title": "Product Catalogue 24" },
-        { "file": "Product Catlouge-26.png", "title": "Product Catalogue 26" },
-        { "file": "Product Catlouge-29.png", "title": "Product Catalogue 29" },
-        { "file": "Sam_Gold Loan_03.png", "title": "Gold Loan 03" },
-        { "file": "Sam_Gold Loan_Banner01.png", "title": "Gold Loan Banner" },
-        { "file": "Social Media Packages.png", "title": "Social Media Packages" },
-        { "file": "Untitled design.png", "title": "Untitled Design" },
+        { "file": "LaxmiPujan.png", "title": "Laxmi Pujan" },
+        { "file": "MaharashtraDin.png", "title": "Maharashtra Din" },
+        { "file": "PrintBazzarPost.png", "title": "Print Bazzar Post" },
+        { "file": "ProductCatlouge20.png", "title": "Product Catalogue 20" },
+        { "file": "ProductCatlouge22.png", "title": "Product Catalogue 22" },
+        { "file": "ProductCatlouge24.png", "title": "Product Catalogue 24" },
+        { "file": "ProductCatlouge26.png", "title": "Product Catalogue 26" },
+        { "file": "ProductCatlouge29.png", "title": "Product Catalogue 29" },
+        { "file": "SamGoldLoan.png", "title": "Gold Loan 03" },
+        { "file": "SamGoldsLoan.png", "title": "Gold Loan Banner" },
+        { "file": "SocialMediaPackages.png", "title": "Social Media Packages" },
+        { "file": "Lohari.png", "title": "Lohari" },
         { "file": "webdesign.png", "title": "Web Design" },
-        { "file": "WTS Post.png", "title": "WTS Post" }
+        { "file": "WTSPost.png", "title": "WTS Post" }
       ]
     },
     {
@@ -71,7 +71,7 @@
       "class": "ui_graphics",
       "path": "assets/img/UIGraphics/",
       "images": [
-        { "file": "Billing n Payment.png", "title": "Billing & Payment" },
+        { "file": "BillingnPayment.png", "title": "Billing & Payment" },
         { "file": "Calander.png", "title": "Calendar" }
       ]
     }
